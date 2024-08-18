@@ -1,0 +1,362 @@
+{
+    "name": "augmBaseline",
+    "data_dir": "augm_baseline\\data\\sepsis",
+    "run_dir": "runs",
+    "evaluation_dir": "data\\sepsis\\sepsis_orig\\augm_baseline_eval",
+    "event_logs": [
+        {
+            "name": "sepsis",
+            "file_path": "data\\sepsis\\sepsis_orig\\train_sepsis_orig_80.xes"
+        }
+    ],
+    "approaches" : [],
+    "splitter_configuration": {
+        "name": "time",
+        "training_size": 1,
+        "by": "first",
+        "seeds": [
+            42
+        ],
+        "repetitions": 0,
+        "folds": 0
+    },
+    "min_pref_length": 2,
+    "augmentation_strategies": [
+        {
+            "id": 1,
+            "name": "mixed",
+            "seed": 42,
+            "augmentors": [
+                {
+                    "name": "RandomInsertion",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomDeletion",
+                    "parameters": {}
+                },
+                {
+                    "name": "ParallelSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "FragmentAugmentation",
+                    "parameters": {}
+                },
+                {
+                    "name": "ReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "DeleteReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomReplacement",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "LoopAugmentation",
+                    "parameters": {
+                        "max_additional_repetitions": 3,
+                        "duration_tolerance": 0.2
+                    }
+                }
+            ],
+            "augmentation_factor": 1.2,
+            "allow_multiple": true
+        },
+        {
+            "id": 2,
+            "name": "mixed",
+            "seed": 42,
+            "augmentors": [
+                {
+                    "name": "RandomInsertion",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomDeletion",
+                    "parameters": {}
+                },
+                {
+                    "name": "ParallelSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "FragmentAugmentation",
+                    "parameters": {}
+                },
+                {
+                    "name": "ReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "DeleteReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomReplacement",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "LoopAugmentation",
+                    "parameters": {
+                        "max_additional_repetitions": 3,
+                        "duration_tolerance": 0.2
+                    }
+                }
+            ],
+            "augmentation_factor": 1.4,
+            "allow_multiple": true
+        },
+        {
+            "id": 3,
+            "name": "mixed",
+            "seed": 42,
+            "augmentors": [
+                {
+                    "name": "RandomInsertion",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomDeletion",
+                    "parameters": {}
+                },
+                {
+                    "name": "ParallelSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "FragmentAugmentation",
+                    "parameters": {}
+                },
+                {
+                    "name": "ReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "DeleteReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomReplacement",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "LoopAugmentation",
+                    "parameters": {
+                        "max_additional_repetitions": 3,
+                        "duration_tolerance": 0.2
+                    }
+                }
+            ],
+            "augmentation_factor": 1.6,
+            "allow_multiple": true
+        },
+        {
+            "id": 4,
+            "name": "mixed",
+            "seed": 42,
+            "augmentors": [
+                {
+                    "name": "RandomInsertion",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomDeletion",
+                    "parameters": {}
+                },
+                {
+                    "name": "ParallelSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "FragmentAugmentation",
+                    "parameters": {}
+                },
+                {
+                    "name": "ReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "DeleteReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomReplacement",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "LoopAugmentation",
+                    "parameters": {
+                        "max_additional_repetitions": 3,
+                        "duration_tolerance": 0.2
+                    }
+                }
+            ],
+            "augmentation_factor": 2,
+            "allow_multiple": true
+        },
+        {
+            "id": 5,
+            "name": "mixed",
+            "seed": 42,
+            "augmentors": [
+                {
+                    "name": "RandomInsertion",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomDeletion",
+                    "parameters": {}
+                },
+                {
+                    "name": "ParallelSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "FragmentAugmentation",
+                    "parameters": {}
+                },
+                {
+                    "name": "ReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "DeleteReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomReplacement",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "LoopAugmentation",
+                    "parameters": {
+                        "max_additional_repetitions": 3,
+                        "duration_tolerance": 0.2
+                    }
+                }
+            ],
+            "augmentation_factor": 2.4,
+            "allow_multiple": true
+        },
+        {
+            "id": 6,
+            "name": "mixed",
+            "seed": 42,
+            "augmentors": [
+                {
+                    "name": "RandomInsertion",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomDeletion",
+                    "parameters": {}
+                },
+                {
+                    "name": "ParallelSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "FragmentAugmentation",
+                    "parameters": {}
+                },
+                {
+                    "name": "ReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "DeleteReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomReplacement",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "LoopAugmentation",
+                    "parameters": {
+                        "max_additional_repetitions": 3,
+                        "duration_tolerance": 0.2
+                    }
+                }
+            ],
+            "augmentation_factor": 2.6,
+            "allow_multiple": true
+        },
+        {
+            "id": 7,
+            "name": "mixed",
+            "seed": 42,
+            "augmentors": [
+                {
+                    "name": "RandomInsertion",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomDeletion",
+                    "parameters": {}
+                },
+                {
+                    "name": "ParallelSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "FragmentAugmentation",
+                    "parameters": {}
+                },
+                {
+                    "name": "ReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "DeleteReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomReplacement",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "LoopAugmentation",
+                    "parameters": {
+                        "max_additional_repetitions": 3,
+                        "duration_tolerance": 0.2
+                    }
+                }
+            ],
+            "augmentation_factor": 3,
+            "allow_multiple": true
+        }
+    ]
+}

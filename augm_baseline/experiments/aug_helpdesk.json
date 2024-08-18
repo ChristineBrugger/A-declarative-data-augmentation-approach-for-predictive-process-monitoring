@@ -1,0 +1,76 @@
+{
+    "name": "augmBaseline",
+    "data_dir": "augm_baseline\\data\\helpdesk",
+    "run_dir": "runs",
+    "evaluation_dir": "data\\helpdesk\\helpdesk_orig\\augm_baseline_eval",
+    "event_logs": [
+        {
+            "name": "helpdesk",
+            "file_path": "data\\helpdesk\\helpdesk_orig\\train_helpdesk_orig_80.xes"
+        }
+    ],
+    "approaches" : [],
+    "splitter_configuration": {
+        "name": "time",
+        "training_size": 1,
+        "by": "first",
+        "seeds": [
+            42
+        ],
+        "repetitions": 0,
+        "folds": 0
+    },
+    "min_pref_length": 2,
+    "augmentation_strategies": [
+        
+        {
+            "id": 3,
+            "name": "mixed",
+            "seed": 42,
+            "augmentors": [
+                {
+                    "name": "RandomInsertion",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomDeletion",
+                    "parameters": {}
+                },
+                {
+                    "name": "ParallelSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "FragmentAugmentation",
+                    "parameters": {}
+                },
+                {
+                    "name": "ReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "DeleteReworkActivity",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomReplacement",
+                    "parameters": {}
+                },
+                {
+                    "name": "RandomSwap",
+                    "parameters": {}
+                },
+                {
+                    "name": "LoopAugmentation",
+                    "parameters": {
+                        "max_additional_repetitions": 3,
+                        "duration_tolerance": 0.2
+                    }
+                }
+            ],
+            "augmentation_factor": 1.6,
+            "allow_multiple": true
+        }
+       
+    ]
+}

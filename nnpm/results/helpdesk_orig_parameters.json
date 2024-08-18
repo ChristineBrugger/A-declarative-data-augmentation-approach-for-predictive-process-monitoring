@@ -1,0 +1,1 @@
+{"batch_size": 9, "embedding_size": 8, "input_length": 15, "learning_rate": 0.0038645448445301968, "model_type": "ACT", "n_classes": 14, "n_modules": 1, "vocab_size": 15}

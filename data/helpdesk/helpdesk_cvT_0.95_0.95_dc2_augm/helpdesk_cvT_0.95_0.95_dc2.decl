@@ -1,0 +1,55 @@
+activity Assign seriousness
+activity Take in charge ticket
+activity Resolve ticket
+activity Closed
+activity Insert ticket
+activity Wait
+activity Create SW anomaly
+activity Require upgrade
+activity Resolve SW anomaly
+activity Schedule intervention
+activity RESOLVED
+activity INVALID
+activity VERIFIED
+Existence1[Resolve ticket] | |
+Existence1[Closed] | |
+Absence2[Closed] | |
+Exactly1[Closed] | |
+End[Closed] | |
+Existence1[Assign seriousness] | |
+Init[Assign seriousness] | |
+Choice[Closed, Resolve ticket] | | |
+Choice[Resolve ticket, Closed] | | |
+Responded Existence[Closed, Resolve ticket] | | |
+Responded Existence[Resolve ticket, Closed] | | |
+Response[Resolve ticket, Closed] | | |
+Precedence[Resolve ticket, Closed] | | |
+Alternate Precedence[Resolve ticket, Closed] | | |
+Chain Precedence[Resolve ticket, Closed] | | |
+Not Response[Closed, Resolve ticket] | | |
+Not Precedence[Closed, Resolve ticket] | | |
+Not Chain Response[Closed, Resolve ticket] | | |
+Not Chain Precedence[Closed, Resolve ticket] | | |
+Choice[Assign seriousness, Resolve ticket] | | |
+Choice[Resolve ticket, Assign seriousness] | | |
+Responded Existence[Assign seriousness, Resolve ticket] | | |
+Responded Existence[Resolve ticket, Assign seriousness] | | |
+Response[Assign seriousness, Resolve ticket] | | |
+Precedence[Assign seriousness, Resolve ticket] | | |
+Not Response[Resolve ticket, Assign seriousness] | | |
+Not Precedence[Resolve ticket, Assign seriousness] | | |
+Not Chain Response[Resolve ticket, Assign seriousness] | | |
+Not Chain Precedence[Resolve ticket, Assign seriousness] | | |
+Choice[Closed, Assign seriousness] | | |
+Choice[Assign seriousness, Closed] | | |
+Responded Existence[Closed, Assign seriousness] | | |
+Responded Existence[Assign seriousness, Closed] | | |
+Response[Assign seriousness, Closed] | | |
+Precedence[Assign seriousness, Closed] | | |
+Alternate Precedence[Assign seriousness, Closed] | | |
+Not Response[Closed, Assign seriousness] | | |
+Not Precedence[Closed, Assign seriousness] | | |
+Not Chain Response[Closed, Assign seriousness] | | |
+Not Chain Response[Assign seriousness, Closed] | | |
+Not Chain Precedence[Closed, Assign seriousness] | | |
+Not Chain Precedence[Assign seriousness, Closed] | | |

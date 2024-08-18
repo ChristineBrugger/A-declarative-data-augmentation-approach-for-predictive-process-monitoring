@@ -1,0 +1,23 @@
+activity Queued
+activity Accepted
+activity Completed
+activity Unmatched
+Existence1[Completed] | |
+Absence2[Completed] | |
+Absence3[Completed] | |
+Exactly1[Completed] | |
+End[Completed] | |
+Existence1[Accepted] | |
+Init[Accepted] | |
+Choice[Accepted, Completed] | | |
+Choice[Completed, Accepted] | | |
+Responded Existence[Accepted, Completed] | | |
+Responded Existence[Completed, Accepted] | | |
+Response[Accepted, Completed] | | |
+Precedence[Accepted, Completed] | | |
+Alternate Precedence[Accepted, Completed] | | |
+Chain Precedence[Accepted, Completed] | | |
+Not Response[Completed, Accepted] | | |
+Not Precedence[Completed, Accepted] | | |
+Not Chain Response[Completed, Accepted] | | |
+Not Chain Precedence[Completed, Accepted] | | |

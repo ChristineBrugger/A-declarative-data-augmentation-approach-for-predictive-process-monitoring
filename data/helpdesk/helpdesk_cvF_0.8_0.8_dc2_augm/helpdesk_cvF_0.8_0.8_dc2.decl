@@ -1,0 +1,105 @@
+activity Assign seriousness
+activity Take in charge ticket
+activity Resolve ticket
+activity Closed
+activity Insert ticket
+activity Wait
+activity Create SW anomaly
+activity Require upgrade
+activity Resolve SW anomaly
+activity Schedule intervention
+activity RESOLVED
+activity INVALID
+activity VERIFIED
+Existence1[Resolve ticket] | |
+Absence2[Resolve ticket] | |
+Exactly1[Resolve ticket] | |
+Existence1[Closed] | |
+Absence2[Closed] | |
+Exactly1[Closed] | |
+End[Closed] | |
+Existence1[Assign seriousness] | |
+Absence2[Assign seriousness] | |
+Exactly1[Assign seriousness] | |
+Init[Assign seriousness] | |
+Existence1[Take in charge ticket] | |
+Absence2[Take in charge ticket] | |
+Choice[Closed, Resolve ticket] | | |
+Choice[Resolve ticket, Closed] | | |
+Responded Existence[Closed, Resolve ticket] | | |
+Responded Existence[Resolve ticket, Closed] | | |
+Response[Resolve ticket, Closed] | | |
+Alternate Response[Resolve ticket, Closed] | | |
+Chain Response[Resolve ticket, Closed] | | |
+Precedence[Resolve ticket, Closed] | | |
+Alternate Precedence[Resolve ticket, Closed] | | |
+Chain Precedence[Resolve ticket, Closed] | | |
+Not Response[Closed, Resolve ticket] | | |
+Not Precedence[Closed, Resolve ticket] | | |
+Not Chain Response[Closed, Resolve ticket] | | |
+Not Chain Precedence[Closed, Resolve ticket] | | |
+Choice[Assign seriousness, Resolve ticket] | | |
+Choice[Resolve ticket, Assign seriousness] | | |
+Responded Existence[Assign seriousness, Resolve ticket] | | |
+Responded Existence[Resolve ticket, Assign seriousness] | | |
+Response[Assign seriousness, Resolve ticket] | | |
+Alternate Response[Assign seriousness, Resolve ticket] | | |
+Precedence[Assign seriousness, Resolve ticket] | | |
+Alternate Precedence[Assign seriousness, Resolve ticket] | | |
+Not Response[Resolve ticket, Assign seriousness] | | |
+Not Precedence[Resolve ticket, Assign seriousness] | | |
+Not Chain Response[Assign seriousness, Resolve ticket] | | |
+Not Chain Response[Resolve ticket, Assign seriousness] | | |
+Not Chain Precedence[Assign seriousness, Resolve ticket] | | |
+Not Chain Precedence[Resolve ticket, Assign seriousness] | | |
+Choice[Closed, Assign seriousness] | | |
+Choice[Assign seriousness, Closed] | | |
+Responded Existence[Closed, Assign seriousness] | | |
+Responded Existence[Assign seriousness, Closed] | | |
+Response[Assign seriousness, Closed] | | |
+Alternate Response[Assign seriousness, Closed] | | |
+Precedence[Assign seriousness, Closed] | | |
+Alternate Precedence[Assign seriousness, Closed] | | |
+Not Response[Closed, Assign seriousness] | | |
+Not Precedence[Closed, Assign seriousness] | | |
+Not Chain Response[Closed, Assign seriousness] | | |
+Not Chain Response[Assign seriousness, Closed] | | |
+Not Chain Precedence[Closed, Assign seriousness] | | |
+Not Chain Precedence[Assign seriousness, Closed] | | |
+Choice[Take in charge ticket, Resolve ticket] | | |
+Choice[Resolve ticket, Take in charge ticket] | | |
+Responded Existence[Take in charge ticket, Resolve ticket] | | |
+Responded Existence[Resolve ticket, Take in charge ticket] | | |
+Response[Take in charge ticket, Resolve ticket] | | |
+Alternate Response[Take in charge ticket, Resolve ticket] | | |
+Precedence[Take in charge ticket, Resolve ticket] | | |
+Alternate Precedence[Take in charge ticket, Resolve ticket] | | |
+Not Response[Resolve ticket, Take in charge ticket] | | |
+Not Precedence[Resolve ticket, Take in charge ticket] | | |
+Not Chain Response[Resolve ticket, Take in charge ticket] | | |
+Not Chain Precedence[Resolve ticket, Take in charge ticket] | | |
+Choice[Take in charge ticket, Closed] | | |
+Choice[Closed, Take in charge ticket] | | |
+Responded Existence[Take in charge ticket, Closed] | | |
+Responded Existence[Closed, Take in charge ticket] | | |
+Response[Take in charge ticket, Closed] | | |
+Precedence[Take in charge ticket, Closed] | | |
+Alternate Precedence[Take in charge ticket, Closed] | | |
+Not Response[Closed, Take in charge ticket] | | |
+Not Precedence[Closed, Take in charge ticket] | | |
+Not Chain Response[Take in charge ticket, Closed] | | |
+Not Chain Response[Closed, Take in charge ticket] | | |
+Not Chain Precedence[Take in charge ticket, Closed] | | |
+Not Chain Precedence[Closed, Take in charge ticket] | | |
+Choice[Take in charge ticket, Assign seriousness] | | |
+Choice[Assign seriousness, Take in charge ticket] | | |
+Responded Existence[Take in charge ticket, Assign seriousness] | | |
+Responded Existence[Assign seriousness, Take in charge ticket] | | |
+Response[Assign seriousness, Take in charge ticket] | | |
+Alternate Response[Assign seriousness, Take in charge ticket] | | |
+Chain Response[Assign seriousness, Take in charge ticket] | | |
+Precedence[Assign seriousness, Take in charge ticket] | | |
+Not Response[Take in charge ticket, Assign seriousness] | | |
+Not Precedence[Take in charge ticket, Assign seriousness] | | |
+Not Chain Response[Take in charge ticket, Assign seriousness] | | |
+Not Chain Precedence[Take in charge ticket, Assign seriousness] | | |

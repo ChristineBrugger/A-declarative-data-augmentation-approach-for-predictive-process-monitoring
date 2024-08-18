@@ -1,0 +1,1 @@
+{"x_word_dict": {"[PAD]": 0, "[UNK]": 1, "queued": 2, "accepted": 3, "completed": 4, "[EOC]": 5, "unmatched": 6}, "y_word_dict": {"queued": 0, "accepted": 1, "completed": 2, "[EOC]": 3, "unmatched": 4}}

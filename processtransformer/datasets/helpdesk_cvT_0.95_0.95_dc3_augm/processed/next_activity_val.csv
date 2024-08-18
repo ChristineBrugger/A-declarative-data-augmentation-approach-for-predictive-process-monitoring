@@ -1,0 +1,2414 @@
+case_id,prefix,k,next_act
+2,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+5,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+5,assign_seriousness take_in_charge_ticket resolve_ticket,2,take_in_charge_ticket
+5,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket,3,resolve_ticket
+5,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket resolve_ticket,4,closed
+5,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket resolve_ticket closed,5,[EOC]
+8,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+8,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+8,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+22,assign_seriousness take_in_charge_ticket,1,wait
+22,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+22,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+22,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+29,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+29,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+29,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+43,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+43,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+43,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+51,assign_seriousness take_in_charge_ticket,1,wait
+51,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+51,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+51,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+52,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+52,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+52,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+59,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+59,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+59,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+59,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+62,assign_seriousness resolve_ticket,1,closed
+62,assign_seriousness resolve_ticket closed,2,[EOC]
+66,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+66,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+66,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+68,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+68,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+68,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+86,assign_seriousness take_in_charge_ticket,1,wait
+86,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+86,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+86,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+93,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+93,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+93,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+98,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+98,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+98,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+117,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+117,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+117,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+120,assign_seriousness take_in_charge_ticket,1,wait
+120,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+120,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+120,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+124,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+124,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+124,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+126,assign_seriousness assign_seriousness,1,resolve_ticket
+126,assign_seriousness assign_seriousness resolve_ticket,2,closed
+126,assign_seriousness assign_seriousness resolve_ticket closed,3,[EOC]
+132,assign_seriousness take_in_charge_ticket,1,wait
+132,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+132,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+132,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+136,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+136,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+136,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+152,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+152,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+152,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+153,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+153,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+153,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+170,assign_seriousness take_in_charge_ticket,1,wait
+170,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+170,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,wait
+170,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait,4,resolve_ticket
+170,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket,5,closed
+170,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket closed,6,[EOC]
+176,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+176,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+176,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+179,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+179,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+179,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+186,assign_seriousness take_in_charge_ticket,1,wait
+186,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+186,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+186,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+197,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+197,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+197,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+197,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+200,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+200,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+200,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+212,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+212,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+212,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+224,assign_seriousness take_in_charge_ticket,1,wait
+224,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+224,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+224,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+241,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+241,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+241,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+243,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+243,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+243,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+251,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+251,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+251,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+266,assign_seriousness resolve_ticket,1,resolve_ticket
+266,assign_seriousness resolve_ticket resolve_ticket,2,closed
+266,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+274,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+274,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+274,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+283,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+283,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+283,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+285,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+285,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+285,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+293,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+293,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+293,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+300,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+300,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+300,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+305,assign_seriousness take_in_charge_ticket,1,wait
+305,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+305,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+305,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+307,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+307,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+307,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+309,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+309,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+309,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+312,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+312,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+312,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+318,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+318,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+318,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+336,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+336,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+336,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+338,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+338,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+338,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+339,assign_seriousness take_in_charge_ticket,1,wait
+339,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+339,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+339,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+352,assign_seriousness resolve_ticket,1,resolve_ticket
+352,assign_seriousness resolve_ticket resolve_ticket,2,closed
+352,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+356,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+356,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+356,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+357,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+357,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+357,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+366,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+366,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+366,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+372,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+372,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+372,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+375,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+375,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+375,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+381,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+381,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+381,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+417,assign_seriousness take_in_charge_ticket,1,wait
+417,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+417,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+417,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+418,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+418,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+418,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+424,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+424,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+424,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+424,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+425,assign_seriousness take_in_charge_ticket,1,wait
+425,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+425,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+425,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+434,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+434,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+434,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+436,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+436,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+436,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+436,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+444,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+444,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+444,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+448,assign_seriousness take_in_charge_ticket,1,wait
+448,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+448,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+448,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+453,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+453,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+453,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+453,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+458,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+458,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+458,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+461,assign_seriousness take_in_charge_ticket,1,wait
+461,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+461,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+461,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+462,assign_seriousness take_in_charge_ticket,1,require_upgrade
+462,assign_seriousness take_in_charge_ticket require_upgrade,2,resolve_ticket
+462,assign_seriousness take_in_charge_ticket require_upgrade resolve_ticket,3,closed
+462,assign_seriousness take_in_charge_ticket require_upgrade resolve_ticket closed,4,[EOC]
+466,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+466,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+466,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+472,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+472,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+472,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+479,assign_seriousness resolve_ticket,1,closed
+479,assign_seriousness resolve_ticket closed,2,[EOC]
+482,assign_seriousness resolve_ticket,1,resolve_ticket
+482,assign_seriousness resolve_ticket resolve_ticket,2,closed
+482,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+491,assign_seriousness take_in_charge_ticket,1,wait
+491,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+491,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+491,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+492,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+492,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+492,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+495,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+495,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+495,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+497,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+497,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+497,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+501,assign_seriousness assign_seriousness,1,take_in_charge_ticket
+501,assign_seriousness assign_seriousness take_in_charge_ticket,2,resolve_ticket
+501,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket,3,closed
+501,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket closed,4,[EOC]
+510,assign_seriousness take_in_charge_ticket,1,wait
+510,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+510,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+510,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+511,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+511,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+511,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+519,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+519,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+519,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+528,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+528,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+528,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+537,assign_seriousness take_in_charge_ticket,1,wait
+537,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+537,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+537,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+541,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+541,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+541,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+551,assign_seriousness take_in_charge_ticket,1,wait
+551,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+551,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+551,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+552,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+552,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+552,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+556,assign_seriousness resolve_ticket,1,closed
+556,assign_seriousness resolve_ticket closed,2,[EOC]
+561,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+561,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+561,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+565,assign_seriousness take_in_charge_ticket,1,wait
+565,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+565,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+565,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+570,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+570,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+570,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+573,assign_seriousness take_in_charge_ticket,1,wait
+573,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+573,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+573,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+581,assign_seriousness take_in_charge_ticket,1,wait
+581,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+581,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+581,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+583,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+583,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+583,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+586,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+586,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+586,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+589,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+589,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+589,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+600,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+600,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+600,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+602,assign_seriousness take_in_charge_ticket,1,wait
+602,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+602,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+602,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+613,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+613,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+613,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+614,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+614,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+614,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+621,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+621,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+621,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+627,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+627,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+627,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+633,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+633,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+633,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+634,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+634,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+634,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+641,take_in_charge_ticket resolve_ticket,1,closed
+641,take_in_charge_ticket resolve_ticket closed,2,[EOC]
+650,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+650,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+650,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+652,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+652,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+652,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+653,assign_seriousness assign_seriousness,1,resolve_ticket
+653,assign_seriousness assign_seriousness resolve_ticket,2,closed
+653,assign_seriousness assign_seriousness resolve_ticket closed,3,[EOC]
+654,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+654,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+654,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+669,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+669,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+669,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+670,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+670,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+670,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+680,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+680,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+680,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+682,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+682,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+682,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+683,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+683,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+683,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+684,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+684,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+684,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+686,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+686,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+686,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+693,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+693,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+693,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+695,assign_seriousness take_in_charge_ticket,1,wait
+695,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+695,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,resolve_ticket
+695,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket,4,closed
+695,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket closed,5,[EOC]
+700,assign_seriousness resolve_ticket,1,resolve_ticket
+700,assign_seriousness resolve_ticket resolve_ticket,2,closed
+700,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+704,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+704,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+704,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+705,assign_seriousness resolve_ticket,1,closed
+705,assign_seriousness resolve_ticket closed,2,[EOC]
+706,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+706,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+706,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+716,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+716,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+716,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+716,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+717,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+717,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+717,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+721,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+721,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+721,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+722,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+722,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+722,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+738,assign_seriousness assign_seriousness,1,take_in_charge_ticket
+738,assign_seriousness assign_seriousness take_in_charge_ticket,2,resolve_ticket
+738,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket,3,closed
+738,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket closed,4,[EOC]
+741,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+741,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+741,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+749,assign_seriousness take_in_charge_ticket,1,wait
+749,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+749,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,resolve_ticket
+749,assign_seriousness take_in_charge_ticket wait resolve_ticket resolve_ticket,4,closed
+749,assign_seriousness take_in_charge_ticket wait resolve_ticket resolve_ticket closed,5,[EOC]
+752,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+752,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+752,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+768,assign_seriousness take_in_charge_ticket,1,take_in_charge_ticket
+768,assign_seriousness take_in_charge_ticket take_in_charge_ticket,2,wait
+768,assign_seriousness take_in_charge_ticket take_in_charge_ticket wait,3,resolve_ticket
+768,assign_seriousness take_in_charge_ticket take_in_charge_ticket wait resolve_ticket,4,closed
+768,assign_seriousness take_in_charge_ticket take_in_charge_ticket wait resolve_ticket closed,5,[EOC]
+772,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+772,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+772,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+773,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+773,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+773,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+776,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+776,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+776,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+783,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+783,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+783,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+785,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+785,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+785,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+787,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+787,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+787,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+788,assign_seriousness take_in_charge_ticket,1,wait
+788,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+788,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+788,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+790,assign_seriousness take_in_charge_ticket,1,wait
+790,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+790,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+790,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+796,assign_seriousness take_in_charge_ticket,1,wait
+796,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+796,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+796,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+799,assign_seriousness take_in_charge_ticket,1,wait
+799,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+799,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+799,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+811,assign_seriousness resolve_ticket,1,resolve_ticket
+811,assign_seriousness resolve_ticket resolve_ticket,2,closed
+811,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+817,assign_seriousness take_in_charge_ticket,1,wait
+817,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+817,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,wait
+817,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait,4,resolve_ticket
+817,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket,5,closed
+817,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket closed,6,[EOC]
+819,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+819,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+819,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+840,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+840,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+840,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+853,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+853,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+853,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+857,assign_seriousness take_in_charge_ticket,1,wait
+857,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+857,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+857,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+859,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+859,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+859,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+872,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+872,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+872,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+877,assign_seriousness take_in_charge_ticket,1,wait
+877,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+877,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+877,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+880,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+880,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+880,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+882,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+882,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+882,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+883,assign_seriousness take_in_charge_ticket,1,wait
+883,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+883,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,wait
+883,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait,4,resolve_ticket
+883,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket,5,resolve_ticket
+883,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket resolve_ticket,6,closed
+883,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket resolve_ticket closed,7,[EOC]
+886,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+886,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+886,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+888,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+888,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+888,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+892,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+892,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+892,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+934,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+934,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+934,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+934,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+937,assign_seriousness take_in_charge_ticket,1,require_upgrade
+937,assign_seriousness take_in_charge_ticket require_upgrade,2,resolve_ticket
+937,assign_seriousness take_in_charge_ticket require_upgrade resolve_ticket,3,closed
+937,assign_seriousness take_in_charge_ticket require_upgrade resolve_ticket closed,4,[EOC]
+938,assign_seriousness take_in_charge_ticket,1,wait
+938,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+938,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+938,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+950,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+950,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+950,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+967,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+967,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+967,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+968,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+968,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+968,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+970,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+970,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+970,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+972,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+972,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+972,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+981,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+981,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+981,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+981,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+990,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+990,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+990,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1009,assign_seriousness take_in_charge_ticket,1,wait
+1009,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1009,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1009,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1020,assign_seriousness take_in_charge_ticket,1,wait
+1020,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1020,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1020,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1029,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1029,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1029,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1032,assign_seriousness take_in_charge_ticket,1,wait
+1032,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1032,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1032,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1036,assign_seriousness take_in_charge_ticket,1,wait
+1036,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+1036,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,resolve_ticket
+1036,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket,4,closed
+1036,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket closed,5,[EOC]
+1038,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1038,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1038,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1039,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1039,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1039,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1041,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1041,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1041,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1042,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1042,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1042,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1046,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1046,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1046,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1056,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1056,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1056,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1058,assign_seriousness take_in_charge_ticket,1,wait
+1058,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1058,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1058,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1063,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1063,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1063,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1064,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1064,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1064,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1066,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1066,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1066,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1068,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1068,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1068,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1072,assign_seriousness assign_seriousness,1,take_in_charge_ticket
+1072,assign_seriousness assign_seriousness take_in_charge_ticket,2,resolve_ticket
+1072,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket,3,closed
+1072,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket closed,4,[EOC]
+1076,assign_seriousness take_in_charge_ticket,1,wait
+1076,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1076,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1076,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1084,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1084,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1084,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1086,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1086,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1086,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1090,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1090,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+1090,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+1090,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+1092,assign_seriousness resolve_ticket,1,closed
+1092,assign_seriousness resolve_ticket closed,2,[EOC]
+1094,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1094,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1094,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1103,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1103,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1103,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1106,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1106,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1106,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1125,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1125,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1125,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1128,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1128,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1128,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1131,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1131,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1131,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1134,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1134,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1134,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1135,assign_seriousness take_in_charge_ticket,1,require_upgrade
+1135,assign_seriousness take_in_charge_ticket require_upgrade,2,resolve_ticket
+1135,assign_seriousness take_in_charge_ticket require_upgrade resolve_ticket,3,closed
+1135,assign_seriousness take_in_charge_ticket require_upgrade resolve_ticket closed,4,[EOC]
+1136,assign_seriousness resolve_ticket,1,closed
+1136,assign_seriousness resolve_ticket closed,2,[EOC]
+1137,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1137,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1137,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1143,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1143,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1143,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1154,assign_seriousness wait,1,take_in_charge_ticket
+1154,assign_seriousness wait take_in_charge_ticket,2,resolve_ticket
+1154,assign_seriousness wait take_in_charge_ticket resolve_ticket,3,resolve_ticket
+1154,assign_seriousness wait take_in_charge_ticket resolve_ticket resolve_ticket,4,closed
+1154,assign_seriousness wait take_in_charge_ticket resolve_ticket resolve_ticket closed,5,[EOC]
+1161,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1161,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1161,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1163,assign_seriousness resolve_ticket,1,closed
+1163,assign_seriousness resolve_ticket closed,2,[EOC]
+1187,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1187,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1187,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1188,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1188,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1188,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1192,take_in_charge_ticket resolve_ticket,1,closed
+1192,take_in_charge_ticket resolve_ticket closed,2,[EOC]
+1201,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1201,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1201,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1216,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1216,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1216,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1230,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1230,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1230,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1233,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1233,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1233,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1251,assign_seriousness take_in_charge_ticket,1,wait
+1251,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1251,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1251,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1256,assign_seriousness take_in_charge_ticket,1,wait
+1256,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1256,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1256,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1262,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1262,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1262,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1267,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1267,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1267,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1271,assign_seriousness resolve_ticket,1,closed
+1271,assign_seriousness resolve_ticket closed,2,[EOC]
+1274,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1274,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1274,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1281,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1281,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+1281,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+1281,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+1287,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1287,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1287,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1295,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1295,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1295,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1316,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1316,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1316,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1317,assign_seriousness resolve_ticket,1,closed
+1317,assign_seriousness resolve_ticket closed,2,[EOC]
+1320,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1320,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1320,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1321,assign_seriousness take_in_charge_ticket,1,wait
+1321,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1321,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1321,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1343,assign_seriousness take_in_charge_ticket,1,wait
+1343,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1343,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1343,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1344,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1344,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1344,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1350,assign_seriousness take_in_charge_ticket,1,wait
+1350,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1350,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1350,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1354,assign_seriousness take_in_charge_ticket,1,wait
+1354,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1354,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1354,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1363,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1363,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1363,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1370,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1370,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1370,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1412,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1412,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1412,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1415,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1415,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1415,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1416,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1416,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1416,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1417,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1417,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1417,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1423,assign_seriousness take_in_charge_ticket,1,wait
+1423,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1423,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1423,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1427,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1427,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1427,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1439,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1439,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1439,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1447,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1447,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1447,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1448,assign_seriousness take_in_charge_ticket,1,wait
+1448,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1448,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1448,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1459,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1459,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1459,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1462,assign_seriousness take_in_charge_ticket,1,wait
+1462,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1462,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1462,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1467,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1467,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1467,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1475,assign_seriousness take_in_charge_ticket,1,wait
+1475,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+1475,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,resolve_ticket
+1475,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket,4,closed
+1475,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket closed,5,[EOC]
+1483,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1483,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1483,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1488,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1488,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1488,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1489,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1489,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1489,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1497,assign_seriousness resolve_ticket,1,resolve_ticket
+1497,assign_seriousness resolve_ticket resolve_ticket,2,closed
+1497,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+1503,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1503,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1503,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1505,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1505,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1505,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1521,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1521,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1521,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1526,assign_seriousness take_in_charge_ticket,1,wait
+1526,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1526,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1526,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1536,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1536,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1536,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1537,assign_seriousness take_in_charge_ticket,1,wait
+1537,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1537,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1537,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1548,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1548,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1548,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1550,assign_seriousness resolve_ticket,1,closed
+1550,assign_seriousness resolve_ticket closed,2,[EOC]
+1552,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1552,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1552,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1555,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1555,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1555,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1559,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1559,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+1559,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+1559,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+1564,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1564,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1564,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1566,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1566,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1566,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1569,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1569,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1569,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1591,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1591,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1591,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1592,assign_seriousness take_in_charge_ticket,1,wait
+1592,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1592,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1592,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1601,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1601,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1601,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1602,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1602,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1602,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1619,assign_seriousness resolve_ticket,1,resolve_ticket
+1619,assign_seriousness resolve_ticket resolve_ticket,2,closed
+1619,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+1630,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1630,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1630,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1632,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1632,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1632,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1634,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1634,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1634,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1649,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1649,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1649,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1660,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1660,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1660,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1673,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1673,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1673,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1683,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1683,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1683,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1689,assign_seriousness take_in_charge_ticket,1,wait
+1689,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1689,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1689,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1690,assign_seriousness take_in_charge_ticket,1,wait
+1690,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1690,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1690,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1696,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1696,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1696,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1698,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1698,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1698,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1708,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1708,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1708,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1722,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1722,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1722,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1732,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1732,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1732,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1737,assign_seriousness take_in_charge_ticket,1,wait
+1737,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1737,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1737,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1739,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1739,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1739,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1741,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1741,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1741,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1742,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1742,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1742,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1750,assign_seriousness take_in_charge_ticket,1,wait
+1750,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1750,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1750,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1751,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1751,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1751,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1753,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1753,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1753,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1780,assign_seriousness take_in_charge_ticket,1,wait
+1780,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1780,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1780,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1797,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1797,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1797,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1800,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1800,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1800,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1801,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1801,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1801,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1803,assign_seriousness assign_seriousness,1,take_in_charge_ticket
+1803,assign_seriousness assign_seriousness take_in_charge_ticket,2,wait
+1803,assign_seriousness assign_seriousness take_in_charge_ticket wait,3,resolve_ticket
+1803,assign_seriousness assign_seriousness take_in_charge_ticket wait resolve_ticket,4,closed
+1803,assign_seriousness assign_seriousness take_in_charge_ticket wait resolve_ticket closed,5,[EOC]
+1808,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1808,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1808,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1810,assign_seriousness take_in_charge_ticket,1,wait
+1810,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1810,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1810,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1829,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1829,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1829,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1835,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1835,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1835,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1844,assign_seriousness take_in_charge_ticket,1,wait
+1844,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1844,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1844,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1847,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1847,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1847,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1854,assign_seriousness take_in_charge_ticket,1,wait
+1854,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1854,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1854,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1856,assign_seriousness take_in_charge_ticket,1,wait
+1856,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1856,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1856,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1871,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1871,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1871,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1873,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1873,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+1873,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+1873,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+1878,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1878,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1878,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1880,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1880,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1880,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1885,assign_seriousness take_in_charge_ticket,1,wait
+1885,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1885,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1885,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1886,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1886,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1886,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1898,assign_seriousness take_in_charge_ticket,1,wait
+1898,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1898,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1898,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1902,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1902,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1902,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1908,assign_seriousness take_in_charge_ticket,1,wait
+1908,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1908,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1908,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1912,assign_seriousness take_in_charge_ticket,1,wait
+1912,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1912,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1912,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1920,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1920,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1920,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1922,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1922,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1922,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1944,assign_seriousness take_in_charge_ticket,1,wait
+1944,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1944,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1944,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1950,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1950,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1950,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1955,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1955,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1955,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1960,assign_seriousness take_in_charge_ticket,1,wait
+1960,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1960,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1960,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1962,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1962,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1962,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1972,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1972,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1972,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1974,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1974,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1974,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1977,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1977,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1977,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1979,assign_seriousness take_in_charge_ticket,1,wait
+1979,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1979,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1979,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1982,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1982,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1982,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1988,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1988,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1988,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1992,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1992,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+1992,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+1994,assign_seriousness resolve_ticket,1,closed
+1994,assign_seriousness resolve_ticket closed,2,[EOC]
+1995,assign_seriousness take_in_charge_ticket,1,wait
+1995,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1995,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1995,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1998,assign_seriousness take_in_charge_ticket,1,wait
+1998,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+1998,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+1998,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+1999,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+1999,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+1999,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+1999,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+2002,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2002,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2002,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2012,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2012,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2012,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2014,assign_seriousness take_in_charge_ticket,1,wait
+2014,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2014,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2014,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2024,assign_seriousness take_in_charge_ticket,1,wait
+2024,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2024,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2024,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2029,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2029,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2029,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2030,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2030,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2030,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2032,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2032,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2032,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2047,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2047,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2047,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2061,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2061,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2061,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2066,assign_seriousness resolve_ticket,1,closed
+2066,assign_seriousness resolve_ticket closed,2,[EOC]
+2073,assign_seriousness take_in_charge_ticket,1,wait
+2073,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2073,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2073,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2078,assign_seriousness wait,1,take_in_charge_ticket
+2078,assign_seriousness wait take_in_charge_ticket,2,resolve_ticket
+2078,assign_seriousness wait take_in_charge_ticket resolve_ticket,3,closed
+2078,assign_seriousness wait take_in_charge_ticket resolve_ticket closed,4,[EOC]
+2080,assign_seriousness take_in_charge_ticket,1,take_in_charge_ticket
+2080,assign_seriousness take_in_charge_ticket take_in_charge_ticket,2,resolve_ticket
+2080,assign_seriousness take_in_charge_ticket take_in_charge_ticket resolve_ticket,3,closed
+2080,assign_seriousness take_in_charge_ticket take_in_charge_ticket resolve_ticket closed,4,[EOC]
+2084,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2084,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2084,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2085,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2085,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+2085,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+2085,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+2095,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2095,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2095,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2096,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2096,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2096,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2124,assign_seriousness resolve_ticket,1,closed
+2124,assign_seriousness resolve_ticket closed,2,[EOC]
+2128,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2128,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+2128,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+2128,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+2139,assign_seriousness take_in_charge_ticket,1,require_upgrade
+2139,assign_seriousness take_in_charge_ticket require_upgrade,2,take_in_charge_ticket
+2139,assign_seriousness take_in_charge_ticket require_upgrade take_in_charge_ticket,3,wait
+2139,assign_seriousness take_in_charge_ticket require_upgrade take_in_charge_ticket wait,4,resolve_ticket
+2139,assign_seriousness take_in_charge_ticket require_upgrade take_in_charge_ticket wait resolve_ticket,5,closed
+2139,assign_seriousness take_in_charge_ticket require_upgrade take_in_charge_ticket wait resolve_ticket closed,6,[EOC]
+2160,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2160,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2160,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2171,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2171,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2171,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2174,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2174,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2174,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2188,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2188,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2188,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2193,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2193,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2193,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2194,assign_seriousness resolve_ticket,1,closed
+2194,assign_seriousness resolve_ticket closed,2,[EOC]
+2202,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2202,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2202,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2214,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2214,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2214,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2225,assign_seriousness assign_seriousness,1,take_in_charge_ticket
+2225,assign_seriousness assign_seriousness take_in_charge_ticket,2,resolve_ticket
+2225,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket,3,closed
+2225,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket closed,4,[EOC]
+2226,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2226,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2226,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2237,assign_seriousness resolve_ticket,1,resolve_ticket
+2237,assign_seriousness resolve_ticket resolve_ticket,2,closed
+2237,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+2240,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2240,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2240,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2241,assign_seriousness take_in_charge_ticket,1,wait
+2241,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2241,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2241,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2242,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2242,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2242,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2250,assign_seriousness wait,1,resolve_ticket
+2250,assign_seriousness wait resolve_ticket,2,closed
+2250,assign_seriousness wait resolve_ticket closed,3,[EOC]
+2258,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2258,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2258,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2259,insert_ticket assign_seriousness,1,take_in_charge_ticket
+2259,insert_ticket assign_seriousness take_in_charge_ticket,2,resolve_ticket
+2259,insert_ticket assign_seriousness take_in_charge_ticket resolve_ticket,3,closed
+2259,insert_ticket assign_seriousness take_in_charge_ticket resolve_ticket closed,4,[EOC]
+2273,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2273,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2273,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2276,assign_seriousness resolve_ticket,1,closed
+2276,assign_seriousness resolve_ticket closed,2,[EOC]
+2293,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2293,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+2293,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+2293,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+2313,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2313,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2313,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2318,assign_seriousness take_in_charge_ticket,1,wait
+2318,assign_seriousness take_in_charge_ticket wait,2,wait
+2318,assign_seriousness take_in_charge_ticket wait wait,3,wait
+2318,assign_seriousness take_in_charge_ticket wait wait wait,4,resolve_ticket
+2318,assign_seriousness take_in_charge_ticket wait wait wait resolve_ticket,5,closed
+2318,assign_seriousness take_in_charge_ticket wait wait wait resolve_ticket closed,6,[EOC]
+2326,assign_seriousness take_in_charge_ticket,1,wait
+2326,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2326,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2326,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2347,assign_seriousness resolve_ticket,1,closed
+2347,assign_seriousness resolve_ticket closed,2,[EOC]
+2366,assign_seriousness take_in_charge_ticket,1,wait
+2366,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2366,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2366,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2386,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2386,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2386,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2388,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2388,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2388,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2416,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2416,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2416,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2419,assign_seriousness take_in_charge_ticket,1,wait
+2419,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2419,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2419,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2421,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2421,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2421,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2440,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2440,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2440,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2454,assign_seriousness take_in_charge_ticket,1,wait
+2454,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2454,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2454,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2462,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2462,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+2462,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+2462,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+2479,assign_seriousness resolve_ticket,1,closed
+2479,assign_seriousness resolve_ticket closed,2,[EOC]
+2482,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2482,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2482,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2484,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2484,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2484,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2487,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2487,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2487,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2489,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2489,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2489,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2491,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2491,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2491,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2493,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2493,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2493,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2497,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2497,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2497,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2511,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2511,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2511,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2521,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2521,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2521,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2532,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2532,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2532,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2533,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2533,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2533,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2536,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2536,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2536,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2539,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2539,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2539,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2549,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2549,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2549,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2551,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2551,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2551,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2566,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2566,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2566,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2572,assign_seriousness take_in_charge_ticket,1,create_sw_anomaly
+2572,assign_seriousness take_in_charge_ticket create_sw_anomaly,2,take_in_charge_ticket
+2572,assign_seriousness take_in_charge_ticket create_sw_anomaly take_in_charge_ticket,3,wait
+2572,assign_seriousness take_in_charge_ticket create_sw_anomaly take_in_charge_ticket wait,4,resolve_ticket
+2572,assign_seriousness take_in_charge_ticket create_sw_anomaly take_in_charge_ticket wait resolve_ticket,5,closed
+2572,assign_seriousness take_in_charge_ticket create_sw_anomaly take_in_charge_ticket wait resolve_ticket closed,6,[EOC]
+2573,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2573,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2573,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2575,assign_seriousness take_in_charge_ticket,1,wait
+2575,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2575,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2575,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2576,assign_seriousness take_in_charge_ticket,1,wait
+2576,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2576,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2576,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2579,assign_seriousness resolve_ticket,1,closed
+2579,assign_seriousness resolve_ticket closed,2,[EOC]
+2582,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2582,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2582,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2584,assign_seriousness take_in_charge_ticket,1,wait
+2584,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+2584,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,resolve_ticket
+2584,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket,4,closed
+2584,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket closed,5,[EOC]
+2586,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2586,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2586,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2592,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2592,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2592,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2600,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2600,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2600,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2612,assign_seriousness take_in_charge_ticket,1,wait
+2612,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2612,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2612,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2617,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2617,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2617,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2618,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2618,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2618,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2623,assign_seriousness take_in_charge_ticket,1,wait
+2623,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+2623,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,wait
+2623,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait,4,resolve_ticket
+2623,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket,5,closed
+2623,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket closed,6,[EOC]
+2628,assign_seriousness take_in_charge_ticket,1,wait
+2628,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2628,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2628,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2630,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2630,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2630,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2641,assign_seriousness take_in_charge_ticket,1,wait
+2641,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2641,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2641,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2648,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2648,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2648,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2656,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2656,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2656,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2677,assign_seriousness resolve_ticket,1,closed
+2677,assign_seriousness resolve_ticket closed,2,[EOC]
+2684,assign_seriousness assign_seriousness,1,assign_seriousness
+2684,assign_seriousness assign_seriousness assign_seriousness,2,take_in_charge_ticket
+2684,assign_seriousness assign_seriousness assign_seriousness take_in_charge_ticket,3,resolve_ticket
+2684,assign_seriousness assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket,4,closed
+2684,assign_seriousness assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket closed,5,[EOC]
+2688,assign_seriousness take_in_charge_ticket,1,wait
+2688,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2688,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2688,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2689,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2689,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2689,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2690,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2690,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2690,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2691,assign_seriousness take_in_charge_ticket,1,wait
+2691,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2691,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2691,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2705,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2705,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2705,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2711,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2711,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2711,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2719,assign_seriousness take_in_charge_ticket,1,wait
+2719,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2719,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2719,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2723,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2723,assign_seriousness take_in_charge_ticket resolve_ticket,2,take_in_charge_ticket
+2723,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket,3,resolve_ticket
+2723,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket resolve_ticket,4,closed
+2723,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket resolve_ticket closed,5,[EOC]
+2727,assign_seriousness take_in_charge_ticket,1,wait
+2727,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+2727,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,resolve_ticket
+2727,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket,4,closed
+2727,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket closed,5,[EOC]
+2729,assign_seriousness take_in_charge_ticket,1,wait
+2729,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2729,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2729,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2739,assign_seriousness take_in_charge_ticket,1,wait
+2739,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2739,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2739,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2750,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2750,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2750,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2752,assign_seriousness resolve_ticket,1,closed
+2752,assign_seriousness resolve_ticket closed,2,[EOC]
+2761,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2761,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2761,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2764,assign_seriousness take_in_charge_ticket,1,wait
+2764,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2764,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,resolve_ticket
+2764,assign_seriousness take_in_charge_ticket wait resolve_ticket resolve_ticket,4,closed
+2764,assign_seriousness take_in_charge_ticket wait resolve_ticket resolve_ticket closed,5,[EOC]
+2772,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2772,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2772,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2779,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2779,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2779,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2792,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2792,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+2792,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+2792,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+2795,assign_seriousness take_in_charge_ticket,1,wait
+2795,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2795,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2795,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2801,assign_seriousness take_in_charge_ticket,1,wait
+2801,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+2801,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,resolve_ticket
+2801,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket,4,closed
+2801,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket closed,5,[EOC]
+2803,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2803,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2803,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2833,assign_seriousness take_in_charge_ticket,1,wait
+2833,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2833,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2833,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2840,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2840,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2840,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2844,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2844,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2844,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2846,assign_seriousness take_in_charge_ticket,1,wait
+2846,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2846,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2846,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2876,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2876,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2876,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2880,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2880,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2880,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2883,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2883,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2883,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2885,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2885,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2885,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2886,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2886,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2886,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2898,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2898,assign_seriousness take_in_charge_ticket resolve_ticket,2,take_in_charge_ticket
+2898,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket,3,resolve_ticket
+2898,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket resolve_ticket,4,closed
+2898,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket resolve_ticket closed,5,[EOC]
+2899,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2899,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2899,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2903,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2903,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2903,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2904,assign_seriousness take_in_charge_ticket,1,wait
+2904,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2904,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,resolve_ticket
+2904,assign_seriousness take_in_charge_ticket wait resolve_ticket resolve_ticket,4,closed
+2904,assign_seriousness take_in_charge_ticket wait resolve_ticket resolve_ticket closed,5,[EOC]
+2906,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2906,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2906,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2907,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2907,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2907,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2913,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2913,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2913,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2914,assign_seriousness resolve_ticket,1,closed
+2914,assign_seriousness resolve_ticket closed,2,[EOC]
+2930,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2930,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2930,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2939,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2939,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2939,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2946,assign_seriousness take_in_charge_ticket,1,wait
+2946,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2946,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2946,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2958,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2958,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2958,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2960,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2960,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2960,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2961,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2961,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2961,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2973,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2973,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2973,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2977,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2977,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2977,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2978,assign_seriousness take_in_charge_ticket,1,wait
+2978,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+2978,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+2978,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+2985,assign_seriousness take_in_charge_ticket,1,take_in_charge_ticket
+2985,assign_seriousness take_in_charge_ticket take_in_charge_ticket,2,require_upgrade
+2985,assign_seriousness take_in_charge_ticket take_in_charge_ticket require_upgrade,3,resolve_ticket
+2985,assign_seriousness take_in_charge_ticket take_in_charge_ticket require_upgrade resolve_ticket,4,closed
+2985,assign_seriousness take_in_charge_ticket take_in_charge_ticket require_upgrade resolve_ticket closed,5,[EOC]
+2986,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2986,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2986,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2987,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2987,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2987,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2989,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2989,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2989,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+2996,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+2996,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+2996,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3007,assign_seriousness resolve_ticket,1,resolve_ticket
+3007,assign_seriousness resolve_ticket resolve_ticket,2,closed
+3007,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+3017,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3017,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3017,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3020,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3020,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3020,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3024,assign_seriousness resolve_ticket,1,closed
+3024,assign_seriousness resolve_ticket closed,2,[EOC]
+3025,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3025,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3025,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3028,assign_seriousness take_in_charge_ticket,1,take_in_charge_ticket
+3028,assign_seriousness take_in_charge_ticket take_in_charge_ticket,2,wait
+3028,assign_seriousness take_in_charge_ticket take_in_charge_ticket wait,3,take_in_charge_ticket
+3028,assign_seriousness take_in_charge_ticket take_in_charge_ticket wait take_in_charge_ticket,4,resolve_ticket
+3028,assign_seriousness take_in_charge_ticket take_in_charge_ticket wait take_in_charge_ticket resolve_ticket,5,closed
+3028,assign_seriousness take_in_charge_ticket take_in_charge_ticket wait take_in_charge_ticket resolve_ticket closed,6,[EOC]
+3060,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3060,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3060,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3069,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3069,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3069,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3075,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3075,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3075,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3092,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3092,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3092,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3093,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3093,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3093,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3096,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3096,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3096,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3106,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3106,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+3106,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+3106,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+3107,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3107,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3107,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3109,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3109,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3109,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3111,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3111,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3111,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3115,assign_seriousness take_in_charge_ticket,1,wait
+3115,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3115,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3115,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3122,assign_seriousness take_in_charge_ticket,1,wait
+3122,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3122,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3122,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3133,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3133,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3133,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3134,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3134,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3134,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3140,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3140,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3140,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3141,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3141,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+3141,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+3141,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+3143,assign_seriousness take_in_charge_ticket,1,wait
+3143,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3143,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3143,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3158,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3158,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3158,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3159,take_in_charge_ticket take_in_charge_ticket,1,take_in_charge_ticket
+3159,take_in_charge_ticket take_in_charge_ticket take_in_charge_ticket,2,resolve_ticket
+3159,take_in_charge_ticket take_in_charge_ticket take_in_charge_ticket resolve_ticket,3,closed
+3159,take_in_charge_ticket take_in_charge_ticket take_in_charge_ticket resolve_ticket closed,4,[EOC]
+3160,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3160,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3160,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3161,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3161,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3161,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3171,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3171,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3171,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3178,assign_seriousness resolve_ticket,1,closed
+3178,assign_seriousness resolve_ticket closed,2,[EOC]
+3189,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3189,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3189,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3190,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3190,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3190,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3199,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3199,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3199,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3215,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3215,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3215,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3221,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3221,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3221,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3236,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3236,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3236,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3237,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3237,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3237,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3242,assign_seriousness resolve_ticket,1,closed
+3242,assign_seriousness resolve_ticket closed,2,[EOC]
+3243,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3243,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3243,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3245,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3245,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3245,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3263,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3263,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3263,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3264,assign_seriousness take_in_charge_ticket,1,wait
+3264,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3264,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3264,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3268,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3268,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3268,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3272,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3272,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3272,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3281,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3281,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3281,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3285,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3285,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3285,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3290,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3290,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3290,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3299,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3299,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3299,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3300,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3300,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3300,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3309,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3309,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+3309,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+3309,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+3313,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3313,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3313,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3318,assign_seriousness take_in_charge_ticket,1,wait
+3318,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3318,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3318,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3320,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3320,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3320,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3327,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3327,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3327,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3328,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3328,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3328,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3335,assign_seriousness take_in_charge_ticket,1,wait
+3335,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3335,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3335,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3339,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3339,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3339,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3352,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3352,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3352,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3353,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3353,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3353,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3364,assign_seriousness wait,1,wait
+3364,assign_seriousness wait wait,2,resolve_ticket
+3364,assign_seriousness wait wait resolve_ticket,3,closed
+3364,assign_seriousness wait wait resolve_ticket closed,4,[EOC]
+3371,assign_seriousness take_in_charge_ticket,1,wait
+3371,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3371,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3371,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3374,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3374,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3374,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3375,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3375,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3375,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3381,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3381,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3381,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3383,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3383,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3383,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3387,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3387,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3387,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3393,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3393,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3393,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3394,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3394,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3394,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3395,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3395,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3395,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3399,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3399,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3399,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3401,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3401,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+3401,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+3401,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+3406,assign_seriousness take_in_charge_ticket,1,wait
+3406,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3406,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3406,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3407,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3407,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3407,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3408,assign_seriousness take_in_charge_ticket,1,wait
+3408,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3408,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3408,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3422,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3422,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3422,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3427,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3427,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3427,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3430,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3430,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3430,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3432,assign_seriousness take_in_charge_ticket,1,wait
+3432,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3432,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3432,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3434,assign_seriousness take_in_charge_ticket,1,wait
+3434,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+3434,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,resolve_ticket
+3434,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket,4,closed
+3434,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket closed,5,[EOC]
+3466,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3466,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3466,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3467,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3467,assign_seriousness take_in_charge_ticket resolve_ticket,2,take_in_charge_ticket
+3467,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket,3,resolve_ticket
+3467,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket resolve_ticket,4,closed
+3467,assign_seriousness take_in_charge_ticket resolve_ticket take_in_charge_ticket resolve_ticket closed,5,[EOC]
+3468,assign_seriousness assign_seriousness,1,take_in_charge_ticket
+3468,assign_seriousness assign_seriousness take_in_charge_ticket,2,resolve_ticket
+3468,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket,3,closed
+3468,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket closed,4,[EOC]
+3473,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3473,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3473,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3477,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3477,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3477,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3480,assign_seriousness resolve_ticket,1,closed
+3480,assign_seriousness resolve_ticket closed,2,[EOC]
+3486,assign_seriousness take_in_charge_ticket,1,wait
+3486,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3486,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3486,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3491,assign_seriousness resolve_ticket,1,closed
+3491,assign_seriousness resolve_ticket closed,2,[EOC]
+3495,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3495,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3495,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3497,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3497,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3497,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3503,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3503,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3503,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3519,assign_seriousness resolve_ticket,1,closed
+3519,assign_seriousness resolve_ticket closed,2,[EOC]
+3521,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3521,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3521,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3525,assign_seriousness take_in_charge_ticket,1,wait
+3525,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3525,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3525,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3536,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3536,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3536,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3547,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3547,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3547,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3558,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3558,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3558,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3561,assign_seriousness take_in_charge_ticket,1,wait
+3561,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3561,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3561,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3573,assign_seriousness resolve_ticket,1,closed
+3573,assign_seriousness resolve_ticket closed,2,[EOC]
+3591,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3591,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3591,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3604,assign_seriousness take_in_charge_ticket,1,wait
+3604,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3604,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3604,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3620,assign_seriousness resolve_ticket,1,closed
+3620,assign_seriousness resolve_ticket closed,2,[EOC]
+3632,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3632,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3632,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3633,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3633,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3633,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3635,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3635,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3635,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3637,assign_seriousness take_in_charge_ticket,1,wait
+3637,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3637,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3637,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3640,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3640,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3640,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3646,assign_seriousness take_in_charge_ticket,1,take_in_charge_ticket
+3646,assign_seriousness take_in_charge_ticket take_in_charge_ticket,2,resolve_ticket
+3646,assign_seriousness take_in_charge_ticket take_in_charge_ticket resolve_ticket,3,closed
+3646,assign_seriousness take_in_charge_ticket take_in_charge_ticket resolve_ticket closed,4,[EOC]
+3647,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3647,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3647,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3659,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3659,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3659,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3664,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3664,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3664,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3665,assign_seriousness take_in_charge_ticket,1,wait
+3665,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3665,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3665,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3667,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3667,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3667,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3675,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3675,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3675,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3679,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3679,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3679,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3683,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3683,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3683,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3700,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3700,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3700,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3707,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3707,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3707,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3712,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3712,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3712,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3713,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3713,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3713,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3715,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3715,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3715,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3725,assign_seriousness resolve_ticket,1,resolve_ticket
+3725,assign_seriousness resolve_ticket resolve_ticket,2,closed
+3725,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+3731,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3731,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3731,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3736,take_in_charge_ticket resolve_ticket,1,closed
+3736,take_in_charge_ticket resolve_ticket closed,2,[EOC]
+3737,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3737,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3737,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3741,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3741,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3741,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3760,assign_seriousness resolve_ticket,1,closed
+3760,assign_seriousness resolve_ticket closed,2,[EOC]
+3762,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3762,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3762,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3764,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3764,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3764,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3769,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3769,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3769,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3779,assign_seriousness take_in_charge_ticket,1,require_upgrade
+3779,assign_seriousness take_in_charge_ticket require_upgrade,2,require_upgrade
+3779,assign_seriousness take_in_charge_ticket require_upgrade require_upgrade,3,require_upgrade
+3779,assign_seriousness take_in_charge_ticket require_upgrade require_upgrade require_upgrade,4,resolve_ticket
+3779,assign_seriousness take_in_charge_ticket require_upgrade require_upgrade require_upgrade resolve_ticket,5,closed
+3779,assign_seriousness take_in_charge_ticket require_upgrade require_upgrade require_upgrade resolve_ticket closed,6,[EOC]
+3781,take_in_charge_ticket resolve_ticket,1,closed
+3781,take_in_charge_ticket resolve_ticket closed,2,[EOC]
+3783,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3783,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3783,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3785,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3785,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3785,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3786,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3786,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3786,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3789,assign_seriousness take_in_charge_ticket,1,wait
+3789,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+3789,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,resolve_ticket
+3789,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket,4,closed
+3789,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket resolve_ticket closed,5,[EOC]
+3794,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3794,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3794,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3799,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3799,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3799,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3804,assign_seriousness take_in_charge_ticket,1,wait
+3804,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+3804,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,wait
+3804,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait,4,resolve_ticket
+3804,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket,5,closed
+3804,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket closed,6,[EOC]
+3807,assign_seriousness take_in_charge_ticket,1,wait
+3807,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3807,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3807,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3808,take_in_charge_ticket resolve_ticket,1,closed
+3808,take_in_charge_ticket resolve_ticket closed,2,[EOC]
+3814,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3814,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3814,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3825,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3825,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3825,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3847,assign_seriousness take_in_charge_ticket,1,wait
+3847,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3847,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3847,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3854,assign_seriousness resolve_ticket,1,closed
+3854,assign_seriousness resolve_ticket closed,2,[EOC]
+3859,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3859,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3859,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3862,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3862,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3862,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3869,assign_seriousness take_in_charge_ticket,1,wait
+3869,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3869,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3869,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3870,assign_seriousness resolve_ticket,1,closed
+3870,assign_seriousness resolve_ticket closed,2,[EOC]
+3878,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3878,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3878,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3889,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3889,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3889,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3891,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3891,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3891,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3897,assign_seriousness take_in_charge_ticket,1,require_upgrade
+3897,assign_seriousness take_in_charge_ticket require_upgrade,2,create_sw_anomaly
+3897,assign_seriousness take_in_charge_ticket require_upgrade create_sw_anomaly,3,resolve_ticket
+3897,assign_seriousness take_in_charge_ticket require_upgrade create_sw_anomaly resolve_ticket,4,resolved
+3897,assign_seriousness take_in_charge_ticket require_upgrade create_sw_anomaly resolve_ticket resolved,5,invalid
+3897,assign_seriousness take_in_charge_ticket require_upgrade create_sw_anomaly resolve_ticket resolved invalid,6,verified
+3897,assign_seriousness take_in_charge_ticket require_upgrade create_sw_anomaly resolve_ticket resolved invalid verified,7,closed
+3897,assign_seriousness take_in_charge_ticket require_upgrade create_sw_anomaly resolve_ticket resolved invalid verified closed,8,[EOC]
+3900,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3900,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3900,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3902,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3902,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3902,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3904,assign_seriousness take_in_charge_ticket,1,wait
+3904,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3904,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3904,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3909,assign_seriousness take_in_charge_ticket,1,wait
+3909,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3909,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3909,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3922,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3922,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3922,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3927,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3927,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3927,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3939,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3939,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3939,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3944,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3944,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3944,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3945,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3945,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3945,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3948,assign_seriousness take_in_charge_ticket,1,wait
+3948,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+3948,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+3948,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+3951,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3951,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3951,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3955,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3955,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3955,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3961,assign_seriousness assign_seriousness,1,take_in_charge_ticket
+3961,assign_seriousness assign_seriousness take_in_charge_ticket,2,resolve_ticket
+3961,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket,3,closed
+3961,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket closed,4,[EOC]
+3970,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3970,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3970,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3971,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3971,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3971,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3979,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3979,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3979,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+3986,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+3986,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+3986,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4001,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4001,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4001,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4007,assign_seriousness take_in_charge_ticket,1,wait
+4007,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4007,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4007,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4010,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4010,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+4010,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+4010,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+4013,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4013,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4013,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4015,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4015,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4015,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4027,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4027,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4027,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4029,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4029,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4029,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4034,assign_seriousness take_in_charge_ticket,1,wait
+4034,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4034,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4034,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4041,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4041,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4041,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4051,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4051,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4051,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4053,assign_seriousness assign_seriousness,1,take_in_charge_ticket
+4053,assign_seriousness assign_seriousness take_in_charge_ticket,2,resolve_ticket
+4053,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket,3,closed
+4053,assign_seriousness assign_seriousness take_in_charge_ticket resolve_ticket closed,4,[EOC]
+4055,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4055,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4055,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4060,assign_seriousness take_in_charge_ticket,1,wait
+4060,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4060,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4060,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4061,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4061,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4061,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4064,assign_seriousness take_in_charge_ticket,1,wait
+4064,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4064,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4064,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4076,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4076,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4076,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4086,assign_seriousness take_in_charge_ticket,1,wait
+4086,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4086,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4086,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4090,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4090,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4090,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4096,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4096,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4096,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4115,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4115,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4115,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4119,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4119,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4119,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4120,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4120,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4120,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4121,assign_seriousness take_in_charge_ticket,1,wait
+4121,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4121,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4121,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4129,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4129,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4129,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4131,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4131,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4131,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4142,assign_seriousness take_in_charge_ticket,1,wait
+4142,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4142,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4142,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4151,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4151,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4151,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4155,assign_seriousness take_in_charge_ticket,1,wait
+4155,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4155,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4155,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4159,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4159,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4159,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4166,assign_seriousness take_in_charge_ticket,1,wait
+4166,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4166,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4166,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4180,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4180,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4180,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4189,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4189,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4189,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4193,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4193,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4193,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4198,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4198,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4198,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4202,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4202,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4202,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4205,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4205,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4205,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4208,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4208,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4208,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4216,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4216,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4216,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4220,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4220,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4220,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4222,assign_seriousness take_in_charge_ticket,1,wait
+4222,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4222,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4222,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4230,assign_seriousness take_in_charge_ticket,1,wait
+4230,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4230,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4230,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4233,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4233,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4233,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4238,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4238,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4238,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4240,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4240,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4240,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4260,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4260,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4260,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4266,insert_ticket assign_seriousness,1,take_in_charge_ticket
+4266,insert_ticket assign_seriousness take_in_charge_ticket,2,resolve_ticket
+4266,insert_ticket assign_seriousness take_in_charge_ticket resolve_ticket,3,closed
+4266,insert_ticket assign_seriousness take_in_charge_ticket resolve_ticket closed,4,[EOC]
+4272,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4272,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4272,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4286,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4286,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4286,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4292,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4292,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4292,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4297,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4297,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4297,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4298,assign_seriousness resolve_ticket,1,closed
+4298,assign_seriousness resolve_ticket closed,2,[EOC]
+4304,assign_seriousness take_in_charge_ticket,1,take_in_charge_ticket
+4304,assign_seriousness take_in_charge_ticket take_in_charge_ticket,2,resolve_ticket
+4304,assign_seriousness take_in_charge_ticket take_in_charge_ticket resolve_ticket,3,closed
+4304,assign_seriousness take_in_charge_ticket take_in_charge_ticket resolve_ticket closed,4,[EOC]
+4305,assign_seriousness take_in_charge_ticket,1,wait
+4305,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4305,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4305,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4309,assign_seriousness take_in_charge_ticket,1,wait
+4309,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4309,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4309,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4311,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4311,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4311,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4313,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4313,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4313,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4317,assign_seriousness resolve_ticket,1,resolve_ticket
+4317,assign_seriousness resolve_ticket resolve_ticket,2,closed
+4317,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+4319,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4319,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4319,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4328,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4328,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4328,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4357,assign_seriousness resolve_ticket,1,resolve_ticket
+4357,assign_seriousness resolve_ticket resolve_ticket,2,closed
+4357,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+4364,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4364,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4364,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4373,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4373,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4373,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4379,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4379,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4379,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4386,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4386,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+4386,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+4386,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]
+4395,assign_seriousness take_in_charge_ticket,1,wait
+4395,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+4395,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,wait
+4395,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait,4,resolve_ticket
+4395,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket,5,closed
+4395,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket closed,6,[EOC]
+4403,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4403,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4403,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4411,assign_seriousness take_in_charge_ticket,1,wait
+4411,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+4411,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,wait
+4411,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait,4,resolve_ticket
+4411,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket,5,closed
+4411,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket closed,6,[EOC]
+4413,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4413,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4413,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4416,assign_seriousness take_in_charge_ticket,1,take_in_charge_ticket
+4416,assign_seriousness take_in_charge_ticket take_in_charge_ticket,2,resolve_ticket
+4416,assign_seriousness take_in_charge_ticket take_in_charge_ticket resolve_ticket,3,closed
+4416,assign_seriousness take_in_charge_ticket take_in_charge_ticket resolve_ticket closed,4,[EOC]
+4418,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4418,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4418,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4420,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4420,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4420,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4430,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4430,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4430,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4444,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4444,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4444,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4446,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4446,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4446,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4455,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4455,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4455,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4457,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4457,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4457,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4460,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4460,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4460,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4461,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4461,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4461,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4466,assign_seriousness wait,1,resolve_ticket
+4466,assign_seriousness wait resolve_ticket,2,closed
+4466,assign_seriousness wait resolve_ticket closed,3,[EOC]
+4468,assign_seriousness resolve_ticket,1,closed
+4468,assign_seriousness resolve_ticket closed,2,[EOC]
+4475,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4475,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4475,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4491,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4491,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4491,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4493,assign_seriousness resolve_ticket,1,resolve_ticket
+4493,assign_seriousness resolve_ticket resolve_ticket,2,closed
+4493,assign_seriousness resolve_ticket resolve_ticket closed,3,[EOC]
+4508,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4508,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4508,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4515,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4515,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4515,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4522,assign_seriousness take_in_charge_ticket,1,wait
+4522,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4522,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4522,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4526,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4526,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4526,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4533,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4533,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4533,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4542,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4542,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4542,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4545,assign_seriousness take_in_charge_ticket,1,wait
+4545,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4545,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4545,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4547,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4547,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4547,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4551,assign_seriousness take_in_charge_ticket,1,wait
+4551,assign_seriousness take_in_charge_ticket wait,2,resolve_ticket
+4551,assign_seriousness take_in_charge_ticket wait resolve_ticket,3,closed
+4551,assign_seriousness take_in_charge_ticket wait resolve_ticket closed,4,[EOC]
+4554,assign_seriousness take_in_charge_ticket,1,wait
+4554,assign_seriousness take_in_charge_ticket wait,2,take_in_charge_ticket
+4554,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket,3,wait
+4554,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait,4,resolve_ticket
+4554,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket,5,closed
+4554,assign_seriousness take_in_charge_ticket wait take_in_charge_ticket wait resolve_ticket closed,6,[EOC]
+4555,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4555,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4555,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4556,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4556,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4556,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4557,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4557,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4557,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4560,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4560,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4560,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4566,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4566,assign_seriousness take_in_charge_ticket resolve_ticket,2,closed
+4566,assign_seriousness take_in_charge_ticket resolve_ticket closed,3,[EOC]
+4570,assign_seriousness take_in_charge_ticket,1,resolve_ticket
+4570,assign_seriousness take_in_charge_ticket resolve_ticket,2,resolve_ticket
+4570,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket,3,closed
+4570,assign_seriousness take_in_charge_ticket resolve_ticket resolve_ticket closed,4,[EOC]

@@ -1,0 +1,12 @@
+loss: 1.5158528855275915
+act_output_loss: 0.98626727
+time_output_loss: 0.5207088
+act_output_acc: 0.6240381
+mae_in_days: 1.0420403028706142
+
+ACC Sklearn: 0.6240381091975082
+MCC: 0.557770961552747
+Brier score: 0.4788665
+Weighted Precision: 0.6235585478575372
+Weighted Recall: 0.6240381091975082
+Weighted F1: 0.6180441343435654
