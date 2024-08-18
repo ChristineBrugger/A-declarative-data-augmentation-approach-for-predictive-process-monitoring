@@ -1,5 +1,18 @@
 Implementation adapted from https://gitlab.citius.gal/efren.rama/pmdlcompararator/-/tree/master?ref_type=heads
 
+```
+@Article{RamaManeiro2021,
+  author    = {Efren Rama-Maneiro and Juan Vidal and Manuel Lama},
+  journal   = {{IEEE} Transactions on Services Computing},
+  title     = {Deep Learning for Predictive Business Process Monitoring: Review and Benchmark},
+  year      = {2021},
+  pages     = {1--1},
+  doi       = {10.1109/tsc.2021.3139807},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+}
+```
+
+
 Supplementary material for the article ["Predictive Business Process Monitoring with
 LSTM Neural Networks"](https://arxiv.org/abs/1612.02130) by Niek Tax, Ilya Verenich, [Marcello La Rosa](http://www.marcellolarosa.com/) and [Marlon Dumas](http://kodu.ut.ee/~dumas/).
 
