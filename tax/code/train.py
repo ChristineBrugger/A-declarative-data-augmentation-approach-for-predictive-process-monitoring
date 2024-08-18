@@ -1,13 +1,9 @@
-'''
-this script trains an LSTM model on one of the data files in the data folder of
-this repository. the input file can be changed to another file from the data folder
-by changing its name in line 46.
-
-it is recommended to run this script on GPU, as recurrent networks are quite 
-computationally intensive.
-
-Author: Niek Tax
-'''
+"""
+This script is based on the following source code:
+    https://github.com/verenich/ProcessSequencePrediction
+    https://gitlab.citius.usc.es/efren.rama/pmdlcompararator
+We just adjusted some parts to efficiently use it in our study.
+"""
 
 from __future__ import print_function, division
 from tensorflow.keras.models import Sequential, Model

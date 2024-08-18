@@ -1,3 +1,9 @@
+"""
+This script is based on the following source code:
+    https://github.com/Zaharah/processtransformer
+    https://gitlab.citius.usc.es/efren.rama/pmdlcompararator
+We just adjusted some parts to efficiently use it in our study.
+"""
 import os
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"

@@ -1,3 +1,10 @@
+"""
+This script is based on the following source code:
+    https://github.com/nicoladimauro/nnpm
+    https://gitlab.citius.usc.es/efren.rama/pmdlcompararator
+We just adjusted some parts to efficiently use it in our study.
+"""
+
 import numpy as np
 import tensorflow as tf
 

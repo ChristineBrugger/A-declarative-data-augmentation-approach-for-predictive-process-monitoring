@@ -1,3 +1,10 @@
+"""
+This script is based on the following source code:
+    https://github.com/nicoladimauro/nnpm
+    https://gitlab.citius.usc.es/efren.rama/pmdlcompararator
+We just adjusted some parts to efficiently use it in our study.
+"""
+
 def load_data(logfile=None, max_len=None, parsed_vocabulary=None, y_dict=None, min_prefix_length=2):
 
     import datetime

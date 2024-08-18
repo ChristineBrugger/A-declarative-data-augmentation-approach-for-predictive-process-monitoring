@@ -69,18 +69,6 @@ class EventLogProcessor:
         df['time:timestamp'] = pd.to_datetime(df['time:timestamp'])
         df = df[['case:concept:name', 'concept:name', 'time:timestamp']]
 
-        # Apply specific functions based on dataset
-        # if self.dataset_name == 'helpdesk':
-        #     df = self._separate_case_ids(df)
-
-        if self.dataset_name == 'sepsis':
-            df['case:concept:name'] = df['case:concept:name'].astype("category").cat.codes
-
-        if self.dataset_name == 'bpic13c':
-            df['case:concept:name'] = df['case:concept:name'].str.replace('-', '', regex=False).astype(int)
-        
-        df.to_csv(os.path.join(self.original_dir, f'{self.dataset_name}.csv'), index=False)
-
         # Sort temporally and split the data into training and testing sets based on complete cases
         unique_cases_sorted = df.sort_values(by=['time:timestamp', 'case:concept:name'])['case:concept:name'].unique()
         split_index = int(len(unique_cases_sorted) * split_ratio)
