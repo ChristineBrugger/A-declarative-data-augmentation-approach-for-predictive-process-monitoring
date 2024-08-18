@@ -1,3 +1,5 @@
+Imlementation adapted from https://gitlab.citius.gal/efren.rama/pmdlcompararator/-/tree/master?ref_type=heads
+
 # nnpm
 
 Code for repoducing results reported in the following paper:
