@@ -9,7 +9,7 @@ The code provided in this repository can be readily used to perform the followin
 
 For more details, please refer to the [project page](https://verenich.github.io/ProcessSequencePrediction)
 
-If you the code from this repository, please cite our paper:
+If you the code from this repository, please cite paper:
 ```
 @inproceedings{Tax2017,
   title={Predictive business process monitoring with {LSTM} neural networks},
