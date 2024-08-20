@@ -7,7 +7,7 @@ This is the support code of the master thesis "A declarative data augmentation a
 
 The codes and experiments are adapted from the work of Efren Rama-Maneiro, Juan Vidal and Manuel Lama: [_Deep Learning for Predictive Business Process Monitoring: Review and Benchmark_]([url](https://gitlab.citius.gal/efren.rama/pmdlcompararator))
 
-We used their implementation of the following three approaches and just adapted it at some parts to efficiently use it in our study. Therefore we only kept the necessary parts for our experiments.
+We used their implementation of the following three approaches and just adapted it at some parts to efficiently use it in our study. Therefore, we only kept the necessary parts for our experiments.
 
 ## Implemented approaches
 
@@ -18,7 +18,7 @@ We used their implementation of the following three approaches and just adapted 
 | Bukhsh et al.    | [Link]([url](https://arxiv.org/abs/2104.00721))    | [Code]([url](https://github.com/Zaharah/processtransformer))     |
 
 ## Setup
-In order to execute our scripts we provide the necessary environment data in _decl_data_augm.yml_ This envirionment can be used for our declarative data augmentation approach as well as the data preprocessing and the analysis of the test results. As we need a different pm4py version to execute the codes of the augmentation baseline (https://github.com/mkaep/pbpm-ssl-suite) we also need a different environment. This environment is defined at the _csbdeep.yml_ file.
+In order to execute our scripts we provide the necessary environment data in _decl_data_augm.yml_. This envirionment can be used for our declarative data augmentation approach as well as the data preprocessing and the analysis of the test results. As we need a different pm4py version to execute the codes of the augmentation baseline (https://github.com/mkaep/pbpm-ssl-suite) we also need a different environment. This environment is defined at the _csbdeep.yml_ file.
 
 
 ## Prepare datasets
@@ -85,5 +85,5 @@ Example:
 
 
 ## Analyze Results
-To analyze the result, regarding the class-wise accuracy we provide the notebook _Analysis of Test Results_
+To analyze the result, regarding the class-wise accuracy we provide the notebook _Analysis of Test Results_ and the resulting figures in the folder _figures_.
 
