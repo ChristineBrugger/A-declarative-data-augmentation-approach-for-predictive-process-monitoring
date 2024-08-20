@@ -307,7 +307,7 @@ n_iter = 20
 space = {'input_length': max_length, 'vocab_size': vocab_size, 'n_classes': n_classes, 'model_type': model_type,
          'embedding_size': emb_size,
          'n_modules': hp.choice('n_modules', [1, 2, 3]),
-         'batch_size': hp.choice('batch_size', [8, 9]),
+         'batch_size': hp.choice('batch_size', [8]),
          #'batch_size': hp.choice('batch_size', [9, 10]),
          'learning_rate': hp.loguniform("learning_rate", np.log(0.00001), np.log(0.01))}
 
