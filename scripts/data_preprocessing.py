@@ -80,7 +80,7 @@ class DataPreprocessor:
         # Preprocess according to the selected approach
         if approach == 'processtransformer':
 
-            # Rename dataset for furhter use of ProcessTransformer
+            # Rename dataset for further use of ProcessTransformer
             df_list = [
                 (df_orig, f'full_{subfolder_name}'),
                 (df_train, f'train_{subfolder_name}'),

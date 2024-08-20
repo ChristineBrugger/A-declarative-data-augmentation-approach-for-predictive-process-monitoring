@@ -6,21 +6,21 @@ import matplotlib.pyplot as plt
 def plot_class_accuracy(df_orig, df_dda, df_baseline, name):
 
     """
-    Plot the class-wise accuracy for original, augmented, and baseline datasets, 
+    Plot the class-wise accuracy for original, our augmented, and baseline datasets, 
     along with the proportion of each class in the original dataset.
 
     Args:
         df_orig: DataFrame containing the original predictions.
-        df_augm: DataFrame containing the predictions of the declarative data augmentation (dda) approach.
+        df_dda: DataFrame containing the predictions of the declarative data augmentation (dda) approach.
         df_baseline: DataFrame containing the baseline predictions.
         name (str): Name or title to be used in the plot.
 
-    This function calculates the accuracy for each class in the original, augmented, and baseline predictions.
+    This function calculates the accuracy for each class in the original, dda, and baseline predictions.
     It also calculates the proportion of each class in the original dataset.
     The results are plotted as grouped bar charts.
     """
 
-    # Extract true labels and predictions from each DataFrame
+    # Extract true labels and predictions from each approach
     y_true_orig = df_orig['ground_truth']
     y_pred_orig = df_orig['predicted']
 
@@ -33,7 +33,7 @@ def plot_class_accuracy(df_orig, df_dda, df_baseline, name):
     # Initialize dictionaries to store accuracy and class proportion for each class
     unique_classes = sorted(set(y_true_orig.unique()))
     class_accuracy_orig = {}
-    class_accuracy_augm = {}
+    class_accuracy_dda = {}
     class_accuracy_baseline = {}
     class_proportion = {}
 
@@ -42,12 +42,12 @@ def plot_class_accuracy(df_orig, df_dda, df_baseline, name):
     # Calculate accuracy and class proportion for each class
     for cls in unique_classes:
         mask_orig = y_true_orig == cls
-        mask_augm = y_true_dda == cls
+        mask_dda = y_true_dda == cls
         mask_baseline = y_true_baseline == cls
 
         # Calculate class-specific accuracy for each dataset
         class_accuracy_orig[cls] = accuracy_score(y_true_orig[mask_orig], y_pred_orig[mask_orig]) * 100
-        class_accuracy_augm[cls] = accuracy_score(y_true_dda[mask_augm], y_pred_dda[mask_augm]) * 100
+        class_accuracy_dda[cls] = accuracy_score(y_true_dda[mask_dda], y_pred_dda[mask_dda]) * 100
         class_accuracy_baseline[cls] = accuracy_score(y_true_baseline[mask_baseline], y_pred_baseline[mask_baseline]) * 100
 
         # Calculate the proportion of the class in the original dataset
@@ -58,7 +58,7 @@ def plot_class_accuracy(df_orig, df_dda, df_baseline, name):
         'Class': unique_classes,
         'Original Accuracy': [class_accuracy_orig[cls] for cls in unique_classes],
         'Baseline Accuracy': [class_accuracy_baseline[cls] for cls in unique_classes],
-        'DDA Accuracy': [class_accuracy_augm[cls] for cls in unique_classes],
+        'DDA Accuracy': [class_accuracy_dda[cls] for cls in unique_classes],
         'Class Proportion': [class_proportion[cls] for cls in unique_classes]
     })
     
@@ -92,7 +92,7 @@ def plot_class_accuracy(df_orig, df_dda, df_baseline, name):
     #     ax1.text(i, acc, f'{acc:.1f}', ha='center', va='bottom')
     # for i, acc in enumerate(accuracy_df['Baseline Accuracy']):
     #     ax1.text(i + bar_width, acc, f'{acc:.1f}', ha='center', va='bottom')
-    # for i, acc in enumerate(accuracy_df['Augmented Accuracy']):
+    # for i, acc in enumerate(accuracy_df['DDA Accuracy']):
     #     ax1.text(i + 2 * bar_width, acc, f'{acc:.1f}', ha='center', va='bottom')
 
     # # Annotate the bars with proportion values
