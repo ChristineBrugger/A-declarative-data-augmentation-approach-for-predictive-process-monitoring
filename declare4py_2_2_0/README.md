@@ -1,3 +1,21 @@
+We use this package for our declarative process discovery and simulation. We just made one adaption in the discovery of the constraints, such that they could be used for the synthetic event log generation.
+
+```
+@inproceedings{DonadelloRMS22,
+  author    = {Ivan Donadello and
+               Francesco Riva and
+               Fabrizio Maria Maggi and
+               Aladdin Shikhizada},
+  title     = {Declare4Py: {A} Python Library for Declarative Process Mining},
+  booktitle = {{BPM} (PhD/Demos)},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {3216},
+  pages     = {117--121},
+  publisher = {CEUR-WS.org},
+  year      = {2022}
+}
+```
+
 # Declare4Py
 
 Declare4Py is the first Python package for declarative Process Mining with core functionalities to 
