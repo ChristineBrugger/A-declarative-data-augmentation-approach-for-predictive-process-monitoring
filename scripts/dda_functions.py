@@ -26,7 +26,7 @@ class EventLogProcessor:
     """
     A class to execute the declarative data augmentation for predictive process monitoring.
     The included functions process event logs for training and testing purposes, 
-    including log splitting, model discovery, synthetic log generation, 
+    including data splitting, declarative process discovery, synthetic log generation, 
     and data augmentation.
 
     """
@@ -243,7 +243,7 @@ class EventLogProcessor:
         syn_df = pm4py.convert_to_dataframe(syn_log)
         self.syn_path = os.path.join(self.augm_dataset_path, f"{self.augm_dataset_name}_syn.csv")
 
-        # Save DataFrame as csv
+        # Save DataFrame
         syn_df.to_csv(self.syn_path, index=False)
         
 
@@ -514,7 +514,7 @@ class EventLogProcessor:
         # Set seed
         np.random.seed(42)
 
-        # Generate timestamps for each synthetic dase
+        # Generate timestamps for each synthetic case
         for case_id, case_df in df_syn.groupby("case:concept:name"):
 
             for i in range(1, len(case_df)):
