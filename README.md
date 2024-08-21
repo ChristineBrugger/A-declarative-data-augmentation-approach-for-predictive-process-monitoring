@@ -13,9 +13,9 @@ We used their implementation of the following three approaches and just adapted 
 
 | Author | Paper | Original Code repository |
 | --------------- | --------------- | --------------- |
-| Tax et al.    | [Link]([url](https://arxiv.org/abs/1612.02130))     | [Code]([url](https://github.com/verenich/ProcessSequencePrediction))     |
-| Mauro et al.    | [Link]([url](https://openreview.net/forum?id=OxYPkm8nGEq))     | [Code]([url](https://github.com/nicoladimauro/nnpm))     |
-| Bukhsh et al.    | [Link]([url](https://arxiv.org/abs/2104.00721))    | [Code]([url](https://github.com/Zaharah/processtransformer))     |
+| Tax et al.    | [Link](https://arxiv.org/abs/1612.02130)     | [Code](https://github.com/verenich/ProcessSequencePrediction)     |
+| Mauro et al.    | [Link](https://openreview.net/forum?id=OxYPkm8nGEq)     | [Code](https://github.com/nicoladimauro/nnpm)     |
+| Bukhsh et al.    | [Link](https://arxiv.org/abs/2104.00721)    | [Code](https://github.com/Zaharah/processtransformer)     |
 
 ## Setup
 In order to execute our scripts we provide the necessary environment data in _decl_data_augm.yml_. This envirionment can be used for our declarative data augmentation approach as well as the data preprocessing and the analysis of the test results. As we need a different pm4py version to execute the codes of the augmentation baseline (https://github.com/mkaep/pbpm-ssl-suite) we also need a different environment. This environment is defined at the _csbdeep.yml_ file.
