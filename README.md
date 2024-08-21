@@ -87,3 +87,5 @@ Example:
 ## Analyze Results
 To analyze the result, regarding the class-wise accuracy we provide the notebook _Analysis of Test Results_ and the resulting figures in the folder _figures_.
 
+As we present the results of all baseline approaches for the Helpdesk dataset in the appendix of our thesis, we have included the datasets and results in the folder _augm_baseline_all_combinations_helpdesk_. If you want to re-execute the tests, please adjust the folder structure accordingly, as all datasets and results are provided in a single folder to maintain a simple and organized structure.
+
